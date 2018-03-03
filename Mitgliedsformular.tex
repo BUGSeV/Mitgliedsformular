@@ -5,11 +5,30 @@
 
 \usepackage{eurosym}
 \usepackage{ulem}
+\usepackage[export]{adjustbox}
 
+\usepackage{geometry}
+\geometry{
+  left=2cm,
+  right=2cm,
+  top=1cm,
+  bottom=1cm,
+  bindingoffset=5mm
+}
 
 \newcommand{\smallSquare}{\fbox{\phantom{\rule{0.15in}{0.15in}}}}
 
 \begin{document}
+
+\begin{figure}
+    \includegraphics[width=.4\textwidth, right]{Logo}
+\end{figure}
+\vspace*{8ex}
+\noindent
+Bitcoin User Group Stuttgart e.V.\\
+Nauener Str. 23\\
+70597 Stuttgart\\
+
 
 \vspace{6ex}
 
@@ -68,9 +87,11 @@ Art der Mitgliedschaft:\hspace{2ex}\smallSquare\hspace{2ex}Vollmitgliedschaft\hs
 \vspace{4ex}
 Satzung:\hspace{4ex}\smallSquare\hspace{2ex}Ich habe die Satzung gelesen und erkl\"are mich mit ihr einverstanden.
 
-\vspace{24ex}
+\vspace{18ex}
 
 Ort, Datum \uline{\hfill}  Unterschrift \uline{\phantom{xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx}}\\
 \phantom{xxxxxxxxxxxxxxxxxxxxxxxxx}\\
 \begin{center}\small{Bei Minderj\"ahrigen von einem Erziehungsberechtigten zu unterschreiben.}\end{center}
+\vspace{4ex}
+\small Bitte unterschrieben per Post oder per E-Mail an vorstand@bugs-ev.de senden.
 \end{document}
